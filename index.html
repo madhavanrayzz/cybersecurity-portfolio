@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Madhavan V — Security Analyst focused on penetration testing, web and API security, red teaming, and responsible vulnerability research.">
+  <title>Madhavan V | Cybersecurity Portfolio</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2b; --line:#263249; --text:#edf2ff; --muted:#a7b3ca; --accent:#69e0c2; --blue:#8eb6ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:radial-gradient(ellipse at top right,#162b3d 0,transparent 38%),var(--bg); color:var(--text); line-height:1.65; }
+    a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+    .wrap { width:min(1080px, calc(100% - 36px)); margin:auto; }
+    header { padding:22px 0; border-bottom:1px solid var(--line); }
+    nav { display:flex; justify-content:space-between; align-items:center; gap:20px; flex-wrap:wrap; }
+    .brand { font-weight:800; letter-spacing:.03em; color:var(--text); }
+    .navlinks { display:flex; gap:18px; flex-wrap:wrap; font-size:.94rem; }
+    .hero { padding:84px 0 58px; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.16em; font-size:.78rem; font-weight:800; }
+    h1 { font-size:clamp(2.5rem,7vw,4.8rem); line-height:1.05; letter-spacing:-.045em; margin:15px 0 20px; max-width:850px; }
+    .lead { color:var(--muted); max-width:760px; font-size:1.12rem; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    .btn { display:inline-block; padding:11px 17px; border-radius:10px; border:1px solid var(--line); font-weight:700; }
+    .btn.primary { background:var(--accent); color:#06121a; border-color:var(--accent); }
+    section { padding:34px 0; }
+    h2 { font-size:1.65rem; margin:0 0 18px; letter-spacing:-.02em; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .card { border:1px solid var(--line); border-radius:16px; padding:22px; background:rgba(18,26,43,.86); }
+    .card h3 { margin:0 0 8px; font-size:1.08rem; }
+    .card p { margin:0; color:var(--muted); font-size:.96rem; }
+    .stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:28px; max-width:600px; }
+    .stat { padding:18px; border:1px solid var(--line); border-radius:14px; background:rgba(18,26,43,.7); }
+    .stat strong { display:block; font-size:1.8rem; color:var(--accent); }
+    .stat span { color:var(--muted); font-size:.9rem; }
+    .links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .linkcard { display:block; border:1px solid var(--line); border-radius:12px; padding:16px; background:rgba(18,26,43,.7); }
+    .linkcard strong { display:block; color:var(--text); }
+    .linkcard span { color:var(--muted); font-size:.9rem; }
+    .note { color:var(--muted); font-size:.88rem; }
+    footer { border-top:1px solid var(--line); margin-top:38px; padding:24px 0 36px; color:var(--muted); font-size:.9rem; }
+    @media (max-width:760px) { .grid { grid-template-columns:1fr; } .hero { padding:58px 0 38px; } .links { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="#home">MADHAVAN V / SECURITY</a>
+      <div class="navlinks">
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="https://www.linkedin.com/in/madhavan77777/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="home">
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Cybersecurity · Offensive Security</div>
+      <h1>Finding weaknesses.<br>Explaining risk.<br>Improving security.</h1>
+      <p class="lead">I'm Madhavan, a Security Analyst focused on penetration testing across web applications, APIs, and infrastructure. I work across the assessment lifecycle—from client communication and hands-on testing to vulnerability validation and technical reporting.</p>
+      <div class="actions">
+        <a class="btn primary" href="#work">Explore my portfolio</a>
+        <a class="btn" href="https://www.linkedin.com/in/madhavan77777/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>7+ clients</strong><span>Independently handled assessment engagements</span></div>
+        <div class="stat"><strong>$4,000+</strong><span>Bug bounty rewards reported by me</span></div>
+      </div>
+      <p class="note">Professional and reward figures should be retained only if they can be substantiated and disclosed appropriately.</p>
+    </div>
+  </section>
+  <section id="expertise">
+    <div class="wrap">
+      <h2>Areas of focus</h2>
+      <div class="grid">
+        <article class="card"><h3>Web & API Security</h3><p>Access control, IDOR, authentication and authorization, business logic, session management, and application misconfigurations.</p></article>
+        <article class="card"><h3>End-to-End VAPT</h3><p>Assessment planning, client meetings, manual validation, risk analysis, evidence collection, reporting, and delivery coordination.</p></article>
+        <article class="card"><h3>Red Teaming & Identity</h3><p>Adversary simulation, Active Directory attack paths, identity security, and hybrid environment risks.</p></article>
+        <article class="card"><h3>Bug Bounty Research</h3><p>Independent vulnerability research, responsible disclosure, impact validation, and remediation-focused reporting.</p></article>
+        <article class="card"><h3>AI Application Security</h3><p>Exploring prompt injection, information exposure, backend permission boundaries, and application-level security controls.</p></article>
+        <article class="card"><h3>Security Automation</h3><p>Reconnaissance, crawling, assessment workflows, and organizing results to reduce repetitive work while retaining manual validation.</p></article>
+      </div>
+    </div>
+  </section>
+  <section id="work">
+    <div class="wrap">
+      <h2>Portfolio & writing</h2>
+      <div class="links">
+        <a class="linkcard" href="about.md"><strong>About me ↗</strong><span>Professional background and approach to security testing.</span></a>
+        <a class="linkcard" href="blog/my-cybersecurity-journey.md"><strong>My cybersecurity journey ↗</strong><span>Experience, research interests, and what I'm building next.</span></a>
+        <a class="linkcard" href="blog/web-api-testing-methodology.md"><strong>Web & API testing methodology ↗</strong><span>A practical overview of scope, validation, and reporting.</span></a>
+        <a class="linkcard" href="projects/README.md"><strong>Projects ↗</strong><span>Security automation ideas and project documentation.</span></a>
+        <a class="linkcard" href="research/README.md"><strong>Security research ↗</strong><span>Guidelines for sanitized and responsible write-ups.</span></a>
+        <a class="linkcard" href="labs/README.md"><strong>Labs & CTFs ↗</strong><span>Authorized lab learning and technical notes.</span></a>
+      </div>
+      <p class="note">Markdown files may display as raw text on the Pages site. For a more polished article-reading experience, convert each article to an HTML page or use a static-site generator later.</p>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrap">
+      <h2>My approach</h2>
+      <div class="card">
+        <p>I believe useful security work goes beyond scanner output. Findings should be reproducible, impact should be validated responsibly, and reports should help teams understand what to fix and why. This portfolio shares only material appropriate for public disclosure.</p>
+        <p><a href="https://www.linkedin.com/in/madhavan77777/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Madhavan V · Built with HTML and CSS · Responsible disclosure first.</div></footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Secrets and local artifacts
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+secrets.*
+*.pcap
+*.har
+evidence-private/
+client-data/
+reports-private/
+__pycache__/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
