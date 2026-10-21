@@ -1,0 +1,6 @@
+title: "Madhavan V | Cybersecurity Portfolio"
+description: "Security Analyst focused on penetration testing, web and API security, red teaming, and responsible vulnerability research."
+url: "https://madhavanrayzz.github.io"
+baseurl: "/cybersecurity-portfolio"
+markdown: kramdown
+permalink: pretty
